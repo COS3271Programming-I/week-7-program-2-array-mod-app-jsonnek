@@ -7,8 +7,17 @@ import java.util.Arrays;
 public class Main {
     static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.println("How many data points do you have? (up to 20)");
-        int n = input.nextInt();
+        int n;
+        while (true) {
+            System.out.println("How many data points do you have? (up to 20)");
+            n = input.nextInt();
+            if (n  <= 20) {
+                break;
+            }
+            else {
+                System.out.println("Please enter a number less than or equal to 20.");
+            }
+        }
         int[] dataPoints = new int[n];
         for (int i = 0; i < n; i++) {
             System.out.println("Enter data point " + (i + 1) + ":");
@@ -27,5 +36,7 @@ public class Main {
             dataPoints[s - 1] = newValue;
             System.out.println("The current data points are: " + Arrays.toString(dataPoints));
         }
+        Arrays.sort(dataPoints);
+        System.out.println("The sorted data points are: " + Arrays.toString(dataPoints));
     }
 }
