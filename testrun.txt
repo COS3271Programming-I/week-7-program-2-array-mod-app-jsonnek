@@ -1,20 +1,15 @@
-/Users/jonathansonnek/Library/Java/JavaVirtualMachines/openjdk-25.0.2/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61033 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/jonathansonnek/Documents/GitHub/week-7-program-2-array-mod-app-jsonnek/out/production/Aray Mod APP Main
+/Users/jonathansonnek/Library/Java/JavaVirtualMachines/openjdk-25.0.2/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61572 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/jonathansonnek/Documents/GitHub/week-7-program-2-array-mod-app-jsonnek/out/production/Aray Mod APP Main
 How many data points do you have? (up to 20)
-3
+21
+Please enter a number less than or equal to 20.
+How many data points do you have? (up to 20)
+2
 Enter data point 1:
-45
+4
 Enter data point 2:
-81
-Enter data point 3:
-2
-Do you want to modify another data point? (y/n)
-y
-Enter the position of the data point to change (Starting at 1):
-2
-Enter the new value of the data point:
-12
-The current data points are: [45, 12, 2]
+1
 Do you want to modify another data point? (y/n)
 n
+The sorted data points are: [1, 4]
 
 Process finished with exit code 0
